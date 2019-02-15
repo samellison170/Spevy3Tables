@@ -11,13 +11,14 @@ date: 2/13/2019
         </title>
     </head>
     <body>
+<!--
         <div id="WrapperDiv">
             <table>
                 <tr>
-                    <th>Movie Theater Showtimes</th>
+                    <th colspan="6">Movie Theater Showtimes</th>
                 </tr>
                 <tr>
-                    <th>Febuary 13, 2019</th>
+                    <th colspan="6">Febuary 13, 2019</th>
                 </tr>
                 <tr>
                     <th>Poster</th>
@@ -28,14 +29,96 @@ date: 2/13/2019
                     <td>Amenities</td>
                 </tr>
                 <tr>
-                    <th rowspan="4"><img src="Alita.jpg" alt = "alita"></th>
-                    <td>Alita: Battle Angle</td>
-                    <td>PG-13</td>
-                    <td>122 minutes</td>
-                    <td><tr>7:00PM</tr></td>
-                    <td>Amenities</td>
+                    <td>
+                        <div class = "Poster">
+                            <img src="Alita.jpg" alt = "alita" class="image">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Title">
+                            <td>Alita: Battle Angle</td>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Rating">
+                            <td>PG-13</td>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Length">
+                            <td>122 minutes</td>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="Showtimes">
+                            <tr>
+                                <th rowspan="4">12:45PM</th>
+                                <td>3:00PM</td>
+                                <td>7:00PM</td>
+                                <td>9:10PM</td>
+                            </tr>
+                        </div>
+                    </td>
+                    
+                    
+                    
+                    
+                    <div class = "Amenities">
+                        <td>Amenities</td>
+                    </div>
                 </tr>
             </table>
-        </div>
+-->
+            <table width="80%">
+                <tbody>
+                    <tr>
+                        <td colspan="6">Movie Theater Showtimes</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6">February 16th, 2019</td>
+                    </tr>
+                    <tr>
+                        <td>Poster</td>
+                        <td>Movie</td>
+                        <td>Rating</td>
+                        <td>Length</td>
+                        <td>Showtimes</td>
+                        <td>Amenities</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4"></td>
+                        <td rowspan="4">Alita: Battle Angle</td>
+                        <td rowspan="4">PG-13</td>
+                        <td rowspan="4">122 minutes</td>
+                        <td>12:45 PM</td>
+                        <td rowspan="4">
+                            <ul class="qb-movie-attributes">
+                                <li><span class="" tabindex="0">Closed Caption</span></li>
+                                <li><span tabindex="0">Descriptive Video</span></li>
+                                <li><span tabindex="0">No Passes</span></li>
+                                <li><span tabindex="0">Stadium Seating</span></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>9:10 PM</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+<!--        </div>-->
     </body>
 </html>

@@ -6,6 +6,7 @@ body {
     width: 20%;
     border: 1px solid black;
     margin: 10px;
+    float: left;
 }
 #WrapperDiv{
     width: 80%;
@@ -14,3 +15,18 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.Amenities{
+    width: 40%;
+    margin-top: 10px;
+    text-align: left;
+    
+}
+.image{
+    width: 100%;
+    height: 300px;
+}
+/*
+th,td,tr{
+    border: 1px solid black;
+        float: left;
+}*/
